@@ -15,8 +15,38 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: Outfit, sans-serif;
+    background: $light-gray;
+    display: grid;
+    place-content: center;
 }
 
 p {
     font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: .75rem;
+    height: auto;
+}
+
+.qr_container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+    background: $white;
+    padding: 1.5rem;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h1 {
+        font-size: 1.5rem;
+        color: $dark-blue;
+    }
+
+    p {
+        color: $grayish-blue;
+    }
 }
